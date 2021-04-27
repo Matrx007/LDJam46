@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LDJAM46:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LDJAM46_jar</output-path>
+    <root id="archive" name="LDJAM46.jar">
+      <element id="module-output" name="LDJAM46" />
+      <element id="extracted-dir" path="X:/IdeaProjects/MX Engine/out/artifacts/MX_Engine_jar/MX Engine.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

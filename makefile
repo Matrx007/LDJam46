@@ -11,8 +11,8 @@ OP = "$(PWD)/build"
 JFLAGS = -g -verbose
 
 all: build/com/ydgames/ldjam46/Enemy.class build/com/ydgames/ldjam46/Entity.class build/com/ydgames/ldjam46/GameObject.class build/com/ydgames/ldjam46/Main.class build/com/ydgames/ldjam46/MapGenerator.class build/com/ydgames/ldjam46/Player.class build/com/ydgames/ldjam46/Portal.class build/com/ydgames/ldjam46/Protect.class build/com/ydgames/ldjam46/SoundManager.class build/com/ydgames/ldjam46/Tile.class
-	cp -r src/META-INF build/
 	unzip -d build/ $(shell printf "$(LIBRARIES)" | tr ':' ' ')
+	cp -r src/META-INF build/
 	jar cvmf build/META-INF/MANIFEST.MF LDJam46.jar -C build/ .
 
 build/com/ydgames/ldjam46/Enemy.class: src/com/ydgames/ldjam46/Enemy.java

@@ -20,10 +20,10 @@ make
 Importing libraries:
 1. Project Settings > Libraries > Add > Choose all libraries in 'lib/' > "Library will be added onto selected modules" > OK
 
-Adding run configuration:
-2. Run (Toolbar) > Edit configurations > Add > Application
-  2.1 Main Class: com.ydgames.ldjam46.Main
-  2.2 Working directory: project root folder (where 'assets/' is located) 
+Adding run configuration:  
+2. Run (Toolbar) > Edit configurations > Add > Application  
+   * Main Class: com.ydgames.ldjam46.Main  
+   * Working directory: project root folder (where 'assets/' is located)  
 
 3. Profit!
 
